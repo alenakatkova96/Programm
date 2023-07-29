@@ -30,6 +30,7 @@ public class StatsService {
         int minSale = sales[0];
         int minMonth = 0;
         for (int i = 1; i < sales.length; i++) {
+
             if (sales[i] < minSale) {
                 minSale = sales[i];
                 minMonth = i;
